@@ -7,27 +7,32 @@ Your task is to refactor, optimize, and fix these problems.
 
 ### 🔧 Backend (Node.js)
 
-1. **Refactor blocking I/O**  
+1. **Refactor blocking I/O**
+
    - `src/routes/items.js` uses `fs.readFileSync`. Replace with non‑blocking async operations.
 
-2. **Performance**  
+2. **Performance**
+
    - `GET /api/stats` recalculates stats on every request. Cache results, watch file changes, or introduce a smarter strategy.
 
-3. **Testing**  
+3. **Testing**
    - Add **unit tests** (Jest) for items routes (happy path + error cases).
 
 ### 💻 Frontend (React)
 
-1. **Memory Leak**  
+1. **Memory Leak**
+
    - `Items.js` leaks memory if the component unmounts before fetch completes. Fix it.
 
-2. **Pagination & Search**  
+2. **Pagination & Search**
+
    - Implement paginated list with server‑side search (`q` param). Contribute to both client and server.
 
-3. **Performance**  
+3. **Performance**
+
    - The list can grow large. Integrate **virtualization** (e.g., `react-window`) to keep UI smooth.
 
-4. **UI/UX Polish**  
+4. **UI/UX Polish**
    - Feel free to enhance styling, accessibility, and add loading/skeleton states.
 
 ### 📦 What We Expect
@@ -40,6 +45,7 @@ Your task is to refactor, optimize, and fix these problems.
 ## Quick Start
 
 node version: 18.XX
+
 ```bash
 nvm install 18
 nvm use 18
@@ -56,3 +62,7 @@ npm start
 ```
 
 > The frontend proxies `/api` requests to `http://localhost:3001`.
+
+---
+
+For a detailed explanation of the solution and trade-offs, see [SOLUTION.md](./SOLUTION.md)
