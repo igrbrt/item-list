@@ -62,3 +62,26 @@
 - The project uses a JSON file as a database for simplicity, which is not suitable for production or concurrent writes.
 - All error handling is robust for the current stack, but a real-world app should use a database and more granular error logging/monitoring.
 - The frontend is designed for clarity and usability, but could be further enhanced with accessibility and mobile-first improvements.
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/17666d9e-60e1-4bac-9b05-4edbe1751c68)
+
+![image](https://github.com/user-attachments/assets/b416cb67-6892-4ff9-8ffe-e2e4d6e3bb8e)
+
+## Backend Tests
+
+![image](https://github.com/user-attachments/assets/3360bae3-e088-4501-9204-e97fe5a7bd59)
+
+## Frontend Tests
+
+![image](https://github.com/user-attachments/assets/47a389bc-9336-4a33-bc39-674600594d76)
+
+![image](https://github.com/user-attachments/assets/519155f3-21db-48a8-9372-7a2e703f0884)
+
+![image](https://github.com/user-attachments/assets/a23e5878-378f-4569-8651-ff7089cd91f0)
+
+
+
+
+
